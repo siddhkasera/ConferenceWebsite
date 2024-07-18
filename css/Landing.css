@@ -1447,6 +1447,21 @@ h6 {
   position: relative;
   z-index: 2;
   overflow: hidden;
+  transition: transform 0.5s ease-in-out;
+}
+
+.static-text {
+  /*  margin: 2px; Center align */
+  margin-top: 0.5em;
+  margin-left: 450px;
+  padding: 1px; /* Add some padding */
+  /* background-color: #f0f0f0; Light gray background */
+  text-align: center; /* Center the text */
+  font-size: 1.2em; /* Increase font size */
+  color: #333; /* Dark text color */
+  max-width: 40%; /* Constrain the width */
+  /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); Add some shadow for depth */
+  border-radius: 10px; /* Rounded corners */
 }
 
 #preface {
@@ -2655,7 +2670,6 @@ img {
     background-image: url(/themes/contrib/danland/images/slideshow-shadow.png);
   }
 
-  
   #preface-wrapper.in3 .column,
   #preface-wrapper.in2 .column,
   #preface-wrapper.in1 .column,
