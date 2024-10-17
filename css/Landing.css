@@ -2934,4 +2934,7 @@ img {
   }
 
   #nav .menu li:hover ul,
-  #nav .menu li.sfHover
+  #nav .menu li.sfHover ul {
+    top: 33px;
+  }
+}
