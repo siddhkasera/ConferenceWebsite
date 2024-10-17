@@ -1454,7 +1454,9 @@ h6 {
   /*  margin: 2px; Center align */
   margin-top: 0.5em;
   margin-left: 450px;
-  padding: 1px; /* Add some padding */
+  margin-bottom: 0.75em;
+  padding: 1px;
+  /* Add some padding */
   /* background-color: #f0f0f0; Light gray background */
   text-align: center; /* Center the text */
   font-size: 1.2em; /* Increase font size */
