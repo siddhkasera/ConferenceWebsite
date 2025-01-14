@@ -1464,6 +1464,15 @@ h6 {
   font-size: 16px; /* Adjust font size as needed */
   color: black; /* Adjust text color */
 }
+/* Media query for mobile devices */
+@media (max-width: 768px) {
+  .static-text {
+    margin-left: 10px; /* Adjust for smaller screens */
+    margin-right: 10px; /* Add some padding on both sides */
+    font-size: 14px; /* Reduce font size for better fit */
+    text-align: center; /* Center-align text on small screens */
+  }
+}
 
 #preface {
   margin: 20px;
