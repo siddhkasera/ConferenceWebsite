@@ -1464,16 +1464,34 @@ h6 {
   font-size: 16px; /* Adjust font size as needed */
   color: black; /* Adjust text color */
 }
-/* Media query for mobile devices */
+/* Mobile Devices */
 @media (max-width: 768px) {
   .static-text {
-    margin-left: 10px; /* Adjust for smaller screens */
-    margin-right: 10px; /* Add some padding on both sides */
-    font-size: 14px; /* Reduce font size for better fit */
-    text-align: center; /* Center-align text on small screens */
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 14px;
+    text-align: center;
   }
 }
 
+/* Laptop Screens (1024px and above) */
+@media (min-width: 1024px) {
+  .static-text {
+    margin-left: 400px;
+    margin-right: 400px;
+    font-size: 18px;
+    text-align: left;
+  }
+}
+
+/* Large Desktops (1440px and above) */
+@media (min-width: 1440px) {
+  .static-text {
+    margin-left: 550px;
+    margin-right: 500px;
+    font-size: 20px;
+  }
+}
 #preface {
   margin: 20px;
   font-size: 1.2em;
